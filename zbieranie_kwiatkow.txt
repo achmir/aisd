@@ -1,0 +1,35 @@
+Zbieranie kwiatków
+Pierwsza liczba z plików out to poprawna odpowiedź. Rozwiązania nieoptymalne (np. zachłanne) mogą liczyć na częściowe punkty (druga liczba w pliku out to minimalna odpowiedź, za jaką zostaną przyznane punkty).
+
+W ogrodzie państwa Tosiulińskich rośnie mnóstwo kwiatów. Pomiędzy kwiatami wiją się ścieżki. Są one tak usypane, że istnieje tylko jedna droga pomiędzy dowolnymi dwoma miejscami. Ścieżka może się rozgałęzić na dwie ścieżki. Mała Tosia chciałaby pozbierać jak najwięcej kwiatków dla swojej mamy. Zapytała swojego tatę, czy może to zrobić. Tata powiedział, że może zerwać jedynie kwiatki z kilku przylegających do siebie ścieżek (granicą pomiędzy ścieżkami jest rozgałęzienie). Dodał jeszcze, że jedną ze ścieżek musi być ta od domu do pierwszego rozgałęzienia.
+Tosia bardzo kocha swoją mamę i chciałaby zerwać jak najwięcej kwiatków. Pomóż wybrać jej ścieżki wiedząc ile jest przy każdej ścieżce kwiatków oraz jak są usytuowane. Wiesz także, że od domu wychodzi tylko jedna ścieżka.
+Wejście
+W pierwszej linii wpisane będą dwie liczby: n - liczba ścieżek, m - liczba ścieżek z których można zrywać kwiatki.
+W kolejnej linii znajduje się n trójek liczb x y w. Liczby x y opisują końce ścieżki; dwie ścieżki sąsiadują ze sobą jeśli mają taki sam numer końca. Końcówka 1 oznacza dom państwa Tosiulińskich. Liczba w, to liczba kwiatków przy ścieżce.
+W każdej linii liczby są oddzielone pojedynczą spacją.
+Wyjście
+Liczba kwiatków, które można uzbierać.
+Przykład
+
+Wejście
+5 2
+1 2 2
+2 3 10
+2 4 8
+4 5 11
+4 6 8
+
+Wyjście
+12
+
+Wejście
+5 3
+1 2 2
+2 3 10
+2 4 8
+4 5 11
+4 6 8
+
+Wyjście
+21
+

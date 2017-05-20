@@ -1,0 +1,26 @@
+Jabłonie
+W sadzie jest rząd jabłoni. Ogrodnik wie ile jest jabłek na każdym drzewie, ale zwykle zbieracze pytają go o minimalną i maksymalną liczbę jabłek na kilku kolejnych jabłoniach. Ogrodnik jest już zmęczony tymi pytaniami i prosi Cię o pomoc. Napisz program, który będzie szybko odpowiadał na te pytania.
+Wejście
+W pierwszej linii wpisane będą dwie liczby: n - liczba drzew, m - liczba zapytań.
+W kolejnej linii znajduje się n liczb. Pierwsza liczba, to liczba jabłek na pierwszym drzewie. Druga liczba, to liczba jabłek na drugim drzewie itd.
+W m kolejnych liniach znajdują się zapytania. Każde zapytanie to para liczb x y, gdzie x jest pierwszym drzewem, a y ostatnim drzewem, dla którego należy policzyć minimalną i maksymalną liczbę jabłek. W każdej linii liczby są oddzielone pojedynczą spacją.
+Wyjście
+Dla każdego zapytania należy wpisać parę liczb minimalną oraz maksymalną liczbę jabłek na podanych w pytaniu drzewach.
+Przykład
+
+Wejście
+10 5
+4 3 6 2 9 1 3 0 5 5
+1 10
+1 1
+3 6
+9 10
+3 5
+
+Wyjście
+0 9
+4 4
+1 9
+5 5
+2 9
+
